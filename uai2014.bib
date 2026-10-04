@@ -28,7 +28,7 @@ year = {2014}
 abstract = {Bayesian Optimisation has received considerable attention in recent years as a general methodol- ogy to find the maximum of costly-to-evaluate objective functions. Most existing BO work fo- cuses on where to gather a set of samples with- out giving special consideration to the sampling sequence, or the costs or constraints associated with that sequence. However, in real-world sequential decision problems such as robotics, the order in which samples are gathered is paramount, especially when the robot needs to optimise a temporally non-stationary objective function. Additionally, the state of the environ- ment and sensing platform determine the type and cost of samples that can be gathered. To address these issues, we formulate Sequential Bayesian Optimisation (SBO) with side-state in- formation within a Partially Observed Markov Decision Process (POMDP) framework that can accommodate discrete and continuous observa- tion spaces. We build on previous work using Monte-Carlo Tree Search (MCTS) and Upper Confidence bound for Trees (UCT) for POMDPs and extend it to work with continuous state and observation spaces. Through a series of experi- ments on monitoring a spatial-temporal process with a mobile robot, we show that our UCT- based SBO POMDP optimisation outperforms myopic and non-myopic alternatives.},
 author = {Marchant, Roman and Ramos, Fabio and Sanner, Scott},
 pages = {7-16},
-title = {Sequential Bayesian Optimisation for Spatial-Temporal Monitoring},
+title = {Sequential {B}ayesian Optimisation for Spatial-Temporal Monitoring},
 year = {2014}
 }
 
@@ -60,7 +60,7 @@ year = {2014}
 abstract = {Recent work on Bayesian optimization has shown its effectiveness in global optimization of difficult black-box objective functions. Many real-world optimization problems of interest also have constraints which are unknown a priori. In this paper, we study Bayesian optimization for constrained problems in the general case that noise may be present in the constraint func- tions, and the objective and constraints may be evaluated independently. We provide motivating practical examples, and present a general frame- work to solve such problems. We demonstrate the effectiveness of our approach on optimizing the performance of online latent Dirichlet allo- cation subject to topic sparsity constraints, tun- ing a neural network given test-time memory constraints, and optimizing Hamiltonian Monte Carlo to achieve maximal effectiveness in a fixed time, subject to passing standard convergence di- agnostics.},
 author = {University, Michael Gelbart Harvard and University, Jasper Snoek Harvard and Harvard, Ryan Adams},
 pages = {46-55},
-title = {Bayesian Optimization with Unknown Constraints},
+title = {{B}ayesian Optimization with Unknown Constraints},
 year = {2014}
 }
 
@@ -76,7 +76,7 @@ year = {2014}
 abstract = {We introduce the collaborative multi-output Gaussian process (GP) model for learning dependent tasks with very large datasets. The model fosters task correlations by mixing sparse processes and sharing multiple sets of inducing points. This facilitates the applica- tion of variational inference and the deriva- tion of an evidence lower bound that decom- poses across inputs and outputs. We learn all the parameters of the model in a sin- gle stochastic optimization framework that scales to a large number of observations per output and a large number of outputs. We demonstrate our approach on a toy prob- lem, two medium-sized datasets and a large dataset. The model achieves superior per- formance compared to single output learn- ing and previous multi-output GP models, confirming the benefits of correlating spar- sity structure of the outputs via the inducing points.},
 author = {Nguyen, Trung and Australia, Edwin Bonilla National ICT},
 pages = {66-75},
-title = {Collaborative Multi-output Gaussian Processes},
+title = {Collaborative Multi-output {G}aussian Processes},
 year = {2014}
 }
 
@@ -108,7 +108,7 @@ year = {2014}
 abstract = {Marginal MAP problems are known to be very difficult tasks for graphical models and are so far solved exactly by systematic search guided by a join-tree upper bound. In this paper, we develop new AND/OR branch and bound algorithms for marginal MAP that use heuristics extracted from weighted mini-buckets enhanced with message- passing updates. We demonstrate the effective- ness of the resulting search algorithms against previous join-tree based approaches, which we also extend to accommodate high induced width models, through extensive empirical evaluations. Our results show not only orders-of-magnitude improvements over the state-of-the-art, but also the ability to solve problem instances well be- yond the reach of previous approaches.},
 author = {Marinescu, Radu and Dechter, Rina and Ihler, Alexander},
 pages = {106-115},
-title = {AND/OR Search for Marginal MAP},
+title = {AND/OR Search for Marginal {MAP}},
 year = {2014}
 }
 
@@ -172,7 +172,7 @@ year = {2014}
 abstract = {Several recent algorithms for learning Bayesian network structures first calculate potentially op- timal parent sets (POPS) for all variables and then use various optimization techniques to find a set of POPS, one for each variable, that con- stitutes an optimal network structure. This pa- per makes the observation that there is useful information implicit in the POPS. Specifically, the POPS of a variable constrain its parent can- didates. Moreover, the parent candidates of all variables together give a directed cyclic graph, which often decomposes into a set of strongly connected components (SCCs). Each SCC cor- responds to a smaller subproblem which can be solved independently of the others. Our results show that solving the constrained subproblems significantly improves the efficiency and scala- bility of heuristic search-based structure learning algorithms. Further, we show that by consider- ing only the top p POPS of each variable, we quickly find provably very high quality networks for large datasets.},
 author = {CUNY, Xiannian Fan Graduate Center and Finland", Brandon Malone "Helsinki Institute for Information Technology and York, Changhe Yuan City University of New},
 pages = {186-195},
-title = {There IS a Free Lunch: Constraints for Learning Bayesian Networks},
+title = {There IS a Free Lunch: Constraints for Learning {B}ayesian Networks},
 year = {2014}
 }
 
@@ -180,7 +180,7 @@ year = {2014}
 abstract = {Markov chain Monte Carlo (MCMC) is a popular and successful general-purpose tool for Bayesian inference. However, MCMC cannot be practi- cally applied to large data sets because of the prohibitive cost of evaluating every likelihood term at every iteration. Here we present Fire- fly Monte Carlo (FlyMC) an auxiliary variable MCMC algorithm that only queries the likeli- hoods of a potentially small subset of the data at each iteration yet simulates from the exact pos- terior distribution, in contrast to recent propos- als that are approximate even in the asymptotic limit. FlyMC is compatible with a wide variety of modern MCMC algorithms, and only requires a lower bound on the per-datum likelihood fac- tors. In experiments, we find that FlyMC gen- erates samples from the posterior more than an order of magnitude faster than regular MCMC, opening up MCMC methods to larger datasets than were previously considered feasible.},
 author = {University, Dougal Maclaurin Harvard and Harvard, Ryan Adams},
 pages = {196-205},
-title = {Firefly Monte Carlo: Exact MCMC with Subsets of Data},
+title = {Firefly {M}onte {C}arlo: Exact {MCMC} with Subsets of Data},
 year = {2014}
 }
 
@@ -228,7 +228,7 @@ year = {2014}
 abstract = {The episodic, irregular and asynchronous nature of medical data render them difficult substrates for standard machine learning algorithms. We would like to abstract away this difficulty for the class of time-stamped categorical variables (or events) by modeling them as a renewal pro- cess and inferring a probability density over non- parametric longitudinal intensity functions that modulate the process. Several methods exist for inferring such a density over intensity func- tions, but either their constraints prevent their use with our potentially bursty event streams, or their time complexity renders their use in- tractable on our long-duration observations of high-resolution events, or both. In this paper we present a new efficient and flexible infer- ence method that uses direct numeric integra- tion and smooth interpolation over Gaussian pro- cesses. We demonstrate that our direct method is up to twice as accurate and two orders of magni- tude more efficient than the best existing method (thinning). Importantly, our direct method can infer intensity functions over the full range of bursty to memoryless to regular events, which thinning and many other methods cannot do. Fi- nally, we apply the method to clinical event data and demonstrate a simple example application facilitated by the abstraction.},
 author = {Medicine, Thomas Lasko Vanderbilt School of},
 pages = {256-263},
-title = {Efficient Inference of Gaussian-Process-Modulated Renewal Processes with Application to Medical Event Data},
+title = {Efficient Inference of {G}aussian-Process-Modulated Renewal Processes with Application to Medical Event Data},
 year = {2014}
 }
 
@@ -260,7 +260,7 @@ year = {2014}
 abstract = {We propose a generative Bayesian model that predicts instance labels from weak (bag-level) supervision. We solve this problem by simulta- neously modeling class distributions by Gaussian mixture models and inferring the class labels of positive bag instances that satisfy the multiple in- stance constraints. We employ Dirichlet process priors on mixture weights to automate model se- lection, and efficiently infer model parameters and positive bag instances by a constrained varia- tional Bayes procedure. Our method improves on the state-of-the-art of instance classification from weak supervision on 20 benchmark text catego- rization data sets and one histopathology cancer diagnosis data set.},
 author = {HCI/IWR, Melih Kandemir Heidelberg University and HCI/IWR, Fred Hamprecht Heidelberg University},
 pages = {294-303},
-title = {Instance Label Prediction by Dirichlet Process Multiple Instance Learning},
+title = {Instance Label Prediction by {D}irichlet Process Multiple Instance Learning},
 year = {2014}
 }
 
@@ -284,7 +284,7 @@ year = {2014}
 abstract = {The continuous time Bayesian network (CTBN) enables temporal reasoning by rep- resenting a system as a factored, finite-state Markov process. The CTBN uses a tra- ditional Bayesian network (BN) to specify the initial distribution. Thus, the complex- ity results of Bayesian networks also apply to CTBNs through this initial distribution. However, the question remains whether prop- agating the probabilities through time is, by itself, also a hard problem. We show that exact and approximate inference in continu- ous time Bayesian networks is NP-hard even when the initial states are given.},
 author = {University, Liessman Sturlaugson Montana State and University, John Sheppard Montana State},
 pages = {324-331},
-title = {Inference Complexity in Continuous Time Bayesian Networks},
+title = {Inference Complexity in Continuous Time {B}ayesian Networks},
 year = {2014}
 }
 
@@ -324,7 +324,7 @@ year = {2014}
 abstract = {Kullback Leibler (KL) control problems al- low for eﬃcient computation of optimal con- trol by solving a principal eigenvector prob- lem. However, direct applicability of such framework to continuous state-action sys- tems is limited. In this paper, we propose to embed a KL control problem in a proba- bilistic graphical model where observed vari- ables correspond to the continuous (possi- bly high-dimensional) state of the system and latent variables correspond to a dis- crete (low-dimensional) representation of the state amenable for KL control computation. We present two examples of this approach. The first one uses standard hidden Markov models (HMMs) and computes exact opti- mal control, but is only applicable to low- dimensional systems. The second one uses factorial HMMs, it is scalable to higher di- mensional problems, but control computa- tion is approximate. We illustrate both ex- amples in several robot motor control tasks.},
 author = {NAIST, Takamitsu Matsubara and Nijmegen, Vicen{\c{c}} G{\'o}mez Radboud University and University, Hilbert Kappen Radboud},
 pages = {371-380},
-title = {Latent Kullback Leibler Control for Continuous-State Systems using Probabilistic Graphical Models},
+title = {Latent {K}ullback {L}eibler Control for Continuous-State Systems using Probabilistic Graphical Models},
 year = {2014}
 }
 
@@ -396,7 +396,7 @@ year = {2014}
 abstract = {Real world systems typically feature a variety of different dependency types and topologies that complicate model selection for probabilistic graphical models. We introduce the ensemble-of- forests model, a generalization of the ensemble- of-trees model of Meil˘a and Jaakkola (2006). Our model enables structure learning of Markov random fields (MRF) with multiple connected components and arbitrary potentials. We present two approximate inference techniques for this model and demonstrate their performance on synthetic data. Our results suggest that the ensemble-of-forests approach can accurately re- cover sparse, possibly disconnected MRF topolo- gies, even in presence of non-Gaussian depen- dencies and/or low sample size. We applied the ensemble-of-forests model to learn the struc- ture of perturbed signaling networks of immune cells and found that these frequently exhibit non-Gaussian dependencies with disconnected MRF topologies. In summary, we expect that the ensemble-of-forests model will enable MRF structure learning in other high dimensional real world settings that are governed by non-trivial dependencies.},
 author = {Arvaniti, Eirini and Claassen, Manfred},
 pages = {461-470},
-title = {Markov Network Structure Learning via Ensemble-of-Forests Models},
+title = {{M}arkov Network Structure Learning via Ensemble-of-Forests Models},
 year = {2014}
 }
 
@@ -436,7 +436,7 @@ year = {2014}
 abstract = {We propose an active learning method for discovering low-dimensional structure in high- dimensional Gaussian process (GP) tasks. Such problems are increasingly frequent and impor- tant, but have hitherto presented severe practical difficulties. We further introduce a novel tech- nique for approximately marginalizing GP hyper- parameters, yielding marginal predictions robust to hyperparameter misspecification. Our method offers an efficient means of performing GP re- gression, quadrature, or Bayesian optimization in high-dimensional spaces.},
 author = {Garnett, Roman and Osborne, Michael and Hennig, Philipp},
 pages = {509-518},
-title = {Active Learning of Linear Embeddings for Gaussian Processes},
+title = {Active Learning of Linear Embeddings for {G}aussian Processes},
 year = {2014}
 }
 
@@ -444,7 +444,7 @@ year = {2014}
 abstract = {Communication costs, resulting from synchro- nization requirements during learning, can greatly slow down many parallel machine learning algorithms. In this paper, we present a parallel Markov chain Monte Carlo (MCMC) algorithm in which subsets of data are pro- cessed independently, with very little com- munication. First, we arbitrarily partition data onto multiple machines. Then, on each machine, any classical MCMC method (e.g., Gibbs sampling) may be used to draw samples from a posterior distribution given the data subset. Finally, the samples from each ma- chine are combined to form samples from the full posterior. This embarrassingly parallel algorithm allows each machine to act inde- pendently on a subset of the data (without communication) until the final combination stage. We prove that our algorithm generates asymptotically exact samples and empirically demonstrate its ability to parallelize burn-in and sampling in several models.},
 author = {University, Willie Neiswanger Carnegie Mellon and University, Eric Xing Carnegie Mellon and Wang, Chong},
 pages = {519-528},
-title = {Asymptotically Exact, Embarrassingly Parallel MCMC},
+title = {Asymptotically Exact, Embarrassingly Parallel {MCMC}},
 year = {2014}
 }
 
@@ -492,7 +492,7 @@ year = {2014}
 abstract = {This paper presents an approximate method for performing Bayesian inference in models with conditional independence over a decentralized network of learning agents. The method first employs variational inference on each individual learning agent to generate a local approximate posterior, the agents transmit their local poste- riors to other agents in the network, and finally each agent combines its set of received local pos- teriors. The key insight in this work is that, for many Bayesian models, approximate inference schemes destroy symmetry and dependencies in the model that are crucial to the correct appli- cation of Bayes' rule when combining the lo- cal posteriors. The proposed method addresses this issue by including an additional optimization step in the combination procedure that accounts for these broken dependencies. Experiments on synthetic and real data demonstrate that the de- centralized method provides advantages in com- putational performance and predictive test likeli- hood over previous batch and distributed meth- ods.},
 author = {Campbell, Trevor and How, Jonathan},
 pages = {578-587},
-title = {Approximate Decentralized Bayesian Inference},
+title = {Approximate Decentralized {B}ayesian Inference},
 year = {2014}
 }
 
@@ -508,7 +508,7 @@ year = {2014}
 abstract = {Scientists often express their understanding of the world through a computationally demand- ing simulation program. Analyzing the posterior distribution of the parameters given observations (the inverse problem) can be extremely chal- lenging. The Approximate Bayesian Computa- tion (ABC) framework is the standard statisti- cal tool to handle these likelihood free problems, but they require a very large number of simula- tions. In this work we develop two new ABC sampling algorithms that significantly reduce the number of simulations necessary for posterior in- ference. Both algorithms use confidence esti- mates for the accept probability in the Metropo- lis Hastings step to adaptively choose the number of necessary simulations. Our GPS-ABC algo- rithm stores the information obtained from every simulation in a Gaussian process which acts as a surrogate function for the simulated statistics. Experiments on a challenging realistic biologi- cal problem illustrate the potential of these algo- rithms.},
 author = {Meeds, Edward and Welling, Max},
 pages = {598-607},
-title = {GPS-ABC: Gaussian Process Surrogate Approximate Bayesian Computation},
+title = {GPS-ABC: {G}aussian Process Surrogate Approximate {B}ayesian Computation},
 year = {2014}
 }
 
@@ -548,7 +548,7 @@ year = {2014}
 abstract = {We consider the problem of selecting informative observations in Gaussian graphical models con- taining both cycles and nuisances. More specif- ically, we consider the subproblem of quantify- ing conditional mutual information measures that are nonlocal on such graphs. The ability to effi- ciently quantify the information content of obser- vations is crucial for resource-constrained data acquisition (adaptive sampling) and data process- ing (active learning) systems. While closed- form expressions for Gaussian mutual informa- tion exist, standard linear algebraic techniques, with complexity cubic in the network size, are in- tractable for high-dimensional distributions. We investigate the use of embedded trees for com- puting nonlocal pairwise mutual information and demonstrate through numerical simulations that the presented approach achieves a significant re- duction in computational cost over inversion- based methods.},
 author = {Levine, Daniel and How, Jonathan},
 pages = {648-656},
-title = {Quantifying Nonlocal Informativeness in High-Dimensional, Loopy Gaussian Graphical Models},
+title = {Quantifying Nonlocal Informativeness in High-Dimensional, Loopy {G}aussian Graphical Models},
 year = {2014}
 }
 
@@ -564,7 +564,7 @@ year = {2014}
 abstract = {A popular approach for online decision making in large MDPs is time-bounded tree search. The effectiveness of tree search, however, is largely influenced by the action branching factor, which limits the search depth given a time bound. An obvious way to reduce action branching is to consider only a subset of potentially good ac- tions at each state as specified by a provided partial policy. In this work, we consider offline learning of such partial policies with the goal of speeding up search without significantly reduc- ing decision-making quality. Our first contribu- tion is to study learning algorithms based on re- ducing our learning problem to i.i.d. supervised learning. We give a reduction-style analysis of three such algorithms, each making different as- sumptions, which relates the supervised learning objectives to the sub-optimality of search using the learned partial policies. Our second contribu- tion is to describe concrete implementations of the algorithms within the popular framework of Monte-Carlo tree search. Finally, the third con- tribution is to evaluate the learning algorithms in two challenging MDPs with large action branch- ing factors, showing that the learned partial poli- cies can significantly improve the anytime per- formance of Monte-Carlo tree search.},
 author = {University, Jervis Pinto Oregon State and University, Alan Fern Oregon State},
 pages = {667-676},
-title = {Learning Partial Policies to Speedup MDP Tree Search},
+title = {Learning Partial Policies to Speedup {MDP} Tree Search},
 year = {2014}
 }
 
@@ -572,7 +572,7 @@ year = {2014}
 abstract = {In this paper we present a novel non-parametric approach to Bayesian filtering, where the predic- tion and observation models are learned in an online fashion. Our approach is able to han- dle multimodal distributions over both models by employing a mixture model representation with Gaussian Processes (GP) based components. To cope with the increasing complexity of the esti- mation process, we explore two computationally efficient GP variants, sparse online GP and local GP, which help to manage computation require- ments for each mixture component. Our exper- iments demonstrate that our approach can track human motion much more accurately than exist- ing approaches that learn the prediction and ob- servation models offline and do not update these models with the incoming data stream.},
 author = {Wang, Yali and Chicago, Marcus Brubaker Toyota Technological Institute at and Chaib-draa, Brahim and Urtasun, Raquel},
 pages = {677-685},
-title = {Bayesian Filtering with Online Gaussian Process Latent Variable Models},
+title = {{B}ayesian Filtering with Online {G}aussian Process Latent Variable Models},
 year = {2014}
 }
 
@@ -588,7 +588,7 @@ year = {2014}
 abstract = {The Pitman-Yor process provides an elegant way to cluster data that exhibit power law behavior, where the number of clusters is unknown or un- bounded. Unfortunately, inference in Pitman- Yor process-based models is typically slow and does not scale well with dataset size. In this paper we present new auxiliary-variable repre- sentations for the Pitman-Yor process and a spe- cial case of the hierarchical Pitman-Yor process that allows us to develop parallel inference algo- rithms that distribute inference both on the data space and the model space. We show that our method scales well with increasing data while avoiding any degradation in estimate quality.},
 author = {university, Kumar Dubey Carnegie mellon and Williamson, Sinead and University, Eric Xing Carnegie Mellon},
 pages = {696-705},
-title = {Parallel Markov Chain Monte Carlo for Pitman-Yor Mixture Models},
+title = {Parallel {M}arkov Chain {M}onte {C}arlo for Pitman-Yor Mixture Models},
 year = {2014}
 }
 
@@ -612,7 +612,7 @@ year = {2014}
 abstract = {We present new polynomial time algorithms for inference problems in Bayesian networks (BNs) when restricted to instances that satisfy the following two conditions: they have bounded treewidth and the conditional probability table (CPT) at each node is specified concisely using an r-symmetric function for some constant r. Our polynomial time algorithms work directly on the unmoralized graph. Our results significantly ex- tend known results regarding inference problems on treewidth bounded BNs to a larger class of problem instances. We also show that relaxing either of the conditions used by our algorithms leads to computational intractability.},
 author = {Rosenkrantz, Daniel J. and Tech, Madhav V.Marathe Virginia and Ravi, S. S. and Tech, Anil K. Vullikanti Virginia},
 pages = {725-734},
-title = {Bayesian Inference in Treewidth-Bounded Graphical Models Without Indegree Constraints},
+title = {{B}ayesian Inference in Treewidth-Bounded Graphical Models Without Indegree Constraints},
 year = {2014}
 }
 
@@ -644,7 +644,7 @@ year = {2014}
 abstract = {This paper presents a Bayesian generative model for dependent Cox point processes, alongside an eﬃcient inference scheme which scales as if the point processes were mod- elled independently. We can handle miss- ing data naturally, infer latent structure, and cope with large numbers of observed pro- cesses. A further novel contribution enables the model to work effectively in higher dimen- sional spaces. Using this method, we achieve vastly improved predictive performance on both 2D and 1D real data, validating our structured approach.},
 author = {Gunter, Tom and Lloyd, Chris and Roberts, Stephen and Osborne, Michael A.},
 pages = {765-774},
-title = {Efficient Bayesian Nonparametric Modelling of Structured Point Processes},
+title = {Efficient {B}ayesian Nonparametric Modelling of Structured Point Processes},
 year = {2014}
 }
 
@@ -660,7 +660,7 @@ year = {2014}
 abstract = {Stochastic discriminative EM (sdEM) is an online-EM-type algorithm for discriminative training of probabilistic generative models be- longing to the natural exponential family. In this work, we introduce and justify this algorithm as a stochastic natural gradient descent method, i.e. a method which accounts for the informa- tion geometry in the parameter space of the sta- tistical model. We show how this learning algo- rithm can be used to train probabilistic genera- tive models by minimizing different discrimina- tive loss functions, such as the negative condi- tional log-likelihood and the Hinge loss. The re- sulting models trained by sdEM are always gen- erative (i.e. they define a joint probability distri- bution) and, in consequence, allows to deal with missing data and latent variables in a principled way either when being learned or when making predictions. The performance of this method is illustrated by several text classification problems for which a multinomial naive Bayes and a latent Dirichlet allocation based classifier are learned using different discriminative loss functions.},
 author = {Masegosa, Andres},
 pages = {785-794},
-title = {Stochastic Discriminative EM},
+title = {Stochastic Discriminative {EM}},
 year = {2014}
 }
 
@@ -668,7 +668,7 @@ year = {2014}
 abstract = {Parallel predictive prefetching is a new frame- work for accelerating a large class of widely- used Markov chain Monte Carlo (MCMC) algo- rithms. It speculatively evaluates many potential steps of an MCMC chain in parallel while ex- ploiting fast, iterative approximations to the tar- get density. This can accelerate sampling from target distributions in Bayesian inference prob- lems. Our approach takes advantage of whatever parallel resources are available, but produces re- sults exactly equivalent to standard serial execu- tion. In the initial burn-in phase of chain evalu- ation, we achieve speedup close to linear in the number of available cores.},
 author = {University, Elaine Angelino Harvard and University, Eddie Kohler Harvard and University, Margo Seltzer Harvard and University, Amos Waterland Harvard and Harvard, Ryan Adams},
 pages = {795-804},
-title = {Accelerating MCMC via Parallel Predictive Prefetching},
+title = {Accelerating {MCMC} via Parallel Predictive Prefetching},
 year = {2014}
 }
 
@@ -708,7 +708,7 @@ year = {2014}
 abstract = {Gaussian processes (GP) are a powerful tool for nonparametric regression; unfortunately, calcu- lating the posterior variance in a standard GP model requires time O(n2) in the size of the training set. Previous work by Shen et al. (2006) used a k-d tree structure to approximate the pos- terior mean in certain GP models. We extend this approach to achieve efficient approximation of the posterior covariance using a tree clustering on pairs of training points, and demonstrate sig- nificant improvements in performance with neg- ligible loss of accuracy.},
 author = {Moore, David and Russell, Stuart},
 pages = {843-852},
-title = {Fast Gaussian Process Posteriors with Product Trees},
+title = {Fast {G}aussian Process Posteriors with Product Trees},
 year = {2014}
 }
 
@@ -748,7 +748,7 @@ year = {2014}
 abstract = {Even swaps is a method for solving de- terministic multi-attribute decision problems where the decision maker iteratively simpli- fies the problem until the optimal alterna- tive is revealed (Hammond et al. 1998, 1999). We present a new practical decision support system that takes a Bayesian approach to guiding the even swaps process, where the system makes queries based on its beliefs about the decision maker's preferences and updates them as the interactive process un- folds. Through experiments, we show that it is possible to learn enough about the decision maker's preferences to measurably reduce the cognitive burden, i.e. the number and com- plexity of queries posed by the system.},
 author = {Bhattacharjya, Debarun and Kephart, Jeffrey},
 pages = {892-901},
-title = {Bayesian Interactive Decision Support for Multi-Attribute Problems with Even Swaps},
+title = {{B}ayesian Interactive Decision Support for Multi-Attribute Problems with Even Swaps},
 year = {2014}
 }
 
@@ -772,7 +772,7 @@ year = {2014}
 abstract = {The identification of eigenvalues and eigenfunc- tions from simulation or experimental data is a fundamental and important problem for anal- ysis of metastable systems, because the domi- nant spectral components usually contain a lot of essential information of the metastable dy- namics on slow timescales. It has been shown that the dynamics of a strongly metastable sys- tem can be equivalently described as a hidden Markov model (HMM) under some technical as- sumptions and the spectral estimation can be performed through HMM learning. However, the spectral estimation with unknown number of dominant spectra is still a challenge in the framework of traditional HMMs, and the infi- nite HMMs developed based on stick-breaking processes cannot satisfactorily solved this prob- lem either. In this paper, we analyze the diffi- culties of spectral estimation for infinite HMMs, and present a new nonparametric model called stick-breaking half-weighted model (SB-HWM) to address this problem. The SB-HWM defines a sparse prior of eigenvalues and can be applied to Bayesian inference of dominant eigenpairs of metastable systems in a nonparametric manner. We demonstrate by simulations the advantages of applying SB-HWM to spectral estimation.},
 author = {Berlin, Hao Wu Free University of},
 pages = {922-931},
-title = {A Bayesian Nonparametric Model for Spectral Estimation of Metastable Systems},
+title = {A {B}ayesian Nonparametric Model for Spectral Estimation of Metastable Systems},
 year = {2014}
 }
 
