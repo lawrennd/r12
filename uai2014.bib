@@ -12,6 +12,7 @@
     address = {Quebec City, Quebec, Canada},
     conference_url = {https://www.auai.org/uai2014/},
     conference_number = {30},
+    volume = {r12},
     published = {2026-10-04},
     firstpublished = {2014-07-23},
 }
@@ -108,7 +109,7 @@ year = {2014}
 abstract = {Marginal MAP problems are known to be very difficult tasks for graphical models and are so far solved exactly by systematic search guided by a join-tree upper bound. In this paper, we develop new AND/OR branch and bound algorithms for marginal MAP that use heuristics extracted from weighted mini-buckets enhanced with message- passing updates. We demonstrate the effective- ness of the resulting search algorithms against previous join-tree based approaches, which we also extend to accommodate high induced width models, through extensive empirical evaluations. Our results show not only orders-of-magnitude improvements over the state-of-the-art, but also the ability to solve problem instances well be- yond the reach of previous approaches.},
 author = {Marinescu, Radu and Dechter, Rina and Ihler, Alexander},
 pages = {106-115},
-title = {AND/OR Search for Marginal {MAP}},
+title = {{AND}/{OR} Search for Marginal {MAP}},
 year = {2014}
 }
 
@@ -164,7 +165,7 @@ year = {2014}
 abstract = {In this paper we study a general version of re- gression where each covariate itself is a func- tional data such as distributions or functions. In real applications, however, typically we do not have direct access to such data; instead only some noisy estimates of the true co- variate functions/distributions are available to us. For example, when each covariate is a distribution, then we might not be able to directly observe these distributions, but it can be assumed that i.i.d. sample sets from these distributions are available. In this pa- per we present a general framework and a k- NN based estimator for this regression prob- lem. We prove consistency of the estimator and derive its convergence rates. We further show that the proposed estimator can adapt to the local intrinsic dimension in our case and provide a simple approach for choosing k. Finally, we illustrate the applicability of our framework with numerical experiments.},
 author = {University, Sashank J. Reddi Carnegie Mellon and Univeristy, Barnabas Poczos Carnegie Mellon},
 pages = {176-185},
-title = {k-NN Regression on Functional Data with Incomplete Observations},
+title = {k-{NN} Regression on Functional Data with Incomplete Observations},
 year = {2014}
 }
 
@@ -172,7 +173,7 @@ year = {2014}
 abstract = {Several recent algorithms for learning Bayesian network structures first calculate potentially op- timal parent sets (POPS) for all variables and then use various optimization techniques to find a set of POPS, one for each variable, that con- stitutes an optimal network structure. This pa- per makes the observation that there is useful information implicit in the POPS. Specifically, the POPS of a variable constrain its parent can- didates. Moreover, the parent candidates of all variables together give a directed cyclic graph, which often decomposes into a set of strongly connected components (SCCs). Each SCC cor- responds to a smaller subproblem which can be solved independently of the others. Our results show that solving the constrained subproblems significantly improves the efficiency and scala- bility of heuristic search-based structure learning algorithms. Further, we show that by consider- ing only the top p POPS of each variable, we quickly find provably very high quality networks for large datasets.},
 author = {CUNY, Xiannian Fan Graduate Center and Finland", Brandon Malone "Helsinki Institute for Information Technology and York, Changhe Yuan City University of New},
 pages = {186-195},
-title = {There IS a Free Lunch: Constraints for Learning {B}ayesian Networks},
+title = {There {IS} a Free Lunch: Constraints for Learning {B}ayesian Networks},
 year = {2014}
 }
 
@@ -196,7 +197,7 @@ year = {2014}
 abstract = {We present a new algorithmic approach to the group fused lasso, a convex model that approx- imates a multi-dimensional signal via an ap- proximately piecewise-constant signal. This model has found many applications in mul- tiple change point detection, signal compres- sion, and total variation denoising, though existing algorithms typically using first-order or alternating minimization schemes. In this paper we instead develop a specialized pro- jected Newton method, combined with a pri- mal active set approach, which we show to be substantially faster that existing methods. Furthermore, we present two applications that use this algorithm as a fast subroutine for a more complex outer loop: segmenting linear regression models for time series data, and color image denoising. We show that on these problems the proposed method performs very well, solving the problems faster than state- of-the-art methods and to higher accuracy.},
 author = {University, Matt Wytock Carnegie Mellon and University, J. Zico Kolter Carnegie Mellon and University, Suvrit Sra Carnegie Mellon},
 pages = {216-225},
-title = {Fast Newton methods for the group fused lasso},
+title = {Fast {N}ewton methods for the group fused lasso},
 year = {2014}
 }
 
@@ -236,7 +237,7 @@ year = {2014}
 abstract = {When belief propagation (BP) converges, it does so to a stationary point of the Bethe free en- ergy F, and is often strikingly accurate. How- ever, it may converge only to a local optimum or may not converge at all. An algorithm was recently introduced by Weller and Jebara for at- tractive binary pairwise MRFs which is guaran- teed to return an ǫ-approximation to the global minimum of F in polynomial time provided the maximum degree ∆= O(log n), where n is the number of variables. Here we extend their ap- proach and derive a new method based on an- alyzing first derivatives of F, which leads to much better performance and, for attractive mod- els, yields a fully polynomial-time approxima- tion scheme (FPTAS) without any degree restric- tion. Further, our methods apply to general (non- attractive) models, though with no polynomial time guarantee in this case, demonstrating that approximating log of the Bethe partition func- tion, log ZB = -min F, for a general model to additive ǫ-accuracy may be reduced to a discrete MAP inference problem. This allows the merits of the global Bethe optimum to be tested.},
 author = {University, Adrian Weller Columbia and University, Tony Jebara Columbia},
 pages = {264-273},
-title = {Approximating the Bethe Partition Function},
+title = {Approximating the {B}ethe Partition Function},
 year = {2014}
 }
 
@@ -244,7 +245,7 @@ year = {2014}
 abstract = {Belief propagation is a remarkably effective tool for inference, even when applied to networks with cycles. It may be viewed as a way to seek the minimum of the Bethe free energy, though with no convergence guarantee in general. A variational perspective shows that, compared to exact inference, this minimization employs two forms of approximation: (i) the true entropy is approximated by the Bethe entropy, and (ii) the minimization is performed over a relaxation of the marginal polytope termed the local polytope. Here we explore when and how the Bethe ap- proximation can fail for binary pairwise models by examining each aspect of the approximation, deriving results both analytically and with new experimental methods.},
 author = {University, Adrian Weller Columbia and University, Kui Tang Columbia and University, Tony Jebara Columbia and University, David Sontag New York},
 pages = {274-283},
-title = {Understanding the Bethe approximation: when and how can it go wrong?},
+title = {Understanding the {B}ethe approximation: when and how can it go wrong?},
 year = {2014}
 }
 
@@ -332,7 +333,7 @@ year = {2014}
 abstract = {Learning the structure of probabilistic graphi- cal models for complex real-valued domains is a formidable computational challenge. This in- evitably leads to significant modelling compro- mises such as discretization or the use of a sim- plistic Gaussian representation. In this work we address the challenge of efficiently learning truly expressive copula-based networks that facilitate a mix of varied copula families within the same model. Our approach is based on a simple but powerful bivariate building block that is used to highly efficiently perform local model selection, thus bypassing much of computational burden in- volved in structure learning. We show how this building block can be used to learn general net- works and demonstrate its effectiveness on var- ied and sizeable real-life domains. Importantly, favorable identification and generalization per- formance come with dramatic runtime improve- ments. Indeed, the benefits are such that they allow us to tackle domains that are prohibitive when using a standard learning approaches.},
 author = {Huji, Yaniv Tenzer and Elidan, Gal},
 pages = {381-390},
-title = {HELM: Highly Efficient Learning of Mixed copula networks},
+title = {{HELM}: Highly Efficient Learning of Mixed copula networks},
 year = {2014}
 }
 
@@ -364,7 +365,7 @@ year = {2014}
 abstract = {The paper presents and evaluates the power of limited memory best-first search over AND/OR spaces for optimization tasks in graphical mod- els. We propose Recursive Best-First AND/OR Search with Overestimation (RBFAOO), a new algorithm that explores the search space in a best-first manner while operating with restricted memory. We enhance RBFAOO with a simple overestimation technique aimed at minimizing the overhead associated with re-expanding inter- nal nodes and prove correctness and complete- ness of RBFAOO. Our experiments show that RBFAOO is often superior to the current state- of-the-art approaches based on AND/OR search, especially on very hard problem instances.},
 author = {Kishimoto, Akihiro and Marinescu, Radu},
 pages = {421-430},
-title = {Recursive Best-First AND/OR Search for Graphical Models},
+title = {Recursive Best-First {AND}/{OR} Search for Graphical Models},
 year = {2014}
 }
 
@@ -388,7 +389,7 @@ year = {2014}
 abstract = {The BDI architecture, where agents are modelled based on their beliefs, desires and intentions, pro- vides a practical approach to develop large scale systems. However, it is not well suited to model complex Supervisory Control And Data Acquisi- tion (SCADA) systems pervaded by uncertainty. In this paper we address this issue by extending the operational semantics of CAN(PLAN) into CAN(PLAN)+. We start by modelling the beliefs of an agent as a set of epistemic states where each state, possibly using a different representation, models part of the agent's beliefs. These epis- temic states are stratified to make them commen- surable and to reason about the uncertain beliefs of the agent. The syntax and semantics of a BDI agent are extended accordingly and we identify fragments with computationally efficient seman- tics. Finally, we examine how primitive actions are affected by uncertainty and we define an ap- propriate form of lookahead planning.},
 author = {Belfast, Kim Bauters Queen's University and Belfast, Weiru Liu Queen's University and Belfast, Jun Hong Queen's University and CSIC, Carles Sierra IIIA and Institute, Lluis Godo Artificial Intelligence Research},
 pages = {451-460},
-title = {Can(Plan)+: Extending the Operational Semantics for the BDI architecture to deal with Uncertain Information},
+title = {Can(Plan)+: Extending the Operational Semantics for the {BDI} architecture to deal with Uncertain Information},
 year = {2014}
 }
 
@@ -508,7 +509,7 @@ year = {2014}
 abstract = {Scientists often express their understanding of the world through a computationally demand- ing simulation program. Analyzing the posterior distribution of the parameters given observations (the inverse problem) can be extremely chal- lenging. The Approximate Bayesian Computa- tion (ABC) framework is the standard statisti- cal tool to handle these likelihood free problems, but they require a very large number of simula- tions. In this work we develop two new ABC sampling algorithms that significantly reduce the number of simulations necessary for posterior in- ference. Both algorithms use confidence esti- mates for the accept probability in the Metropo- lis Hastings step to adaptively choose the number of necessary simulations. Our GPS-ABC algo- rithm stores the information obtained from every simulation in a Gaussian process which acts as a surrogate function for the simulated statistics. Experiments on a challenging realistic biologi- cal problem illustrate the potential of these algo- rithms.},
 author = {Meeds, Edward and Welling, Max},
 pages = {598-607},
-title = {GPS-{ABC}: {G}aussian Process Surrogate Approximate {B}ayesian Computation},
+title = {{GPS}-{ABC}: {G}aussian Process Surrogate Approximate {B}ayesian Computation},
 year = {2014}
 }
 
@@ -524,7 +525,7 @@ year = {2014}
 abstract = {We study the problem of a user who has both public and private data, and wants to re- lease the public data, e.g. to a recommenda- tion service, yet simultaneously wants to pro- tect his private data from being inferred via big data analytics. This problem has previ- ously been formulated as a convex optimiza- tion problem with linear constraints where the objective is to minimize the mutual in- formation between the private and released data. This attractive formulation faces a challenge in practice because when the un- derlying alphabet of the user profile is large, there are too many potential ways to distort the original profile. We address this funda- mental scalability challenge. We propose to generate sparse privacy-preserving mappings by recasting the problem as a sequence of lin- ear programs and solving each of these in- crementally using an adaptation of Dantzig- Wolfe decomposition. We evaluate our ap- proach on several datasets and demonstrate that nearly optimal privacy-preserving map- pings can be learned quickly even at scale.},
 author = {Salamatian, Salman and Technicolor, Nadia Fawaz and Labs, Branislav Kveton Technicolor and Technicolor, Nina Taft},
 pages = {618-627},
-title = {SPPM: Sparse Privacy Preserving Mappings},
+title = {{SPPM}: Sparse Privacy Preserving Mappings},
 year = {2014}
 }
 
@@ -716,7 +717,7 @@ year = {2014}
 abstract = {We bring to bear the tools of convexity, mar- gins and the newly proposed technique of monotone retargeting upon the task of learn- ing permutations from examples. This leads to novel and eﬃcient algorithms with guaran- teed prediction performance in the online set- ting and on global optimality and the rate of convergence in the batch setting. Monotone retargeting eﬃciently optimizes over all pos- sible monotone transformations as well as the finite dimensional parameters of the model. As a result we obtain an effective algorithm to learn transitive relationships over items. It captures the inherent combinatorial char- acteristics of the output space yet it has a computational burden not much more than that of a generalized linear model.},
 author = {Acharyya, Sreangsu and Ghosh, Joydeep},
 pages = {853-862},
-title = {MEMR: A Margin Equipped Monotone Retargeting Framework for Ranking},
+title = {{MEMR}: A Margin Equipped Monotone Retargeting Framework for Ranking},
 year = {2014}
 }
 
@@ -729,7 +730,7 @@ year = {2014}
 }
 
 @inproceedings{88,
-abstract = {In high-dimensional classification or regression problems, the expected gradient outerproduct (EGOP) of the unknown regression function f, namely EX  ∇f(X) · ∇f(X)⊤ , is known to recover those directions v ∈Rd most relevant to predicting the output Y . However, just as in gradient estimation, opti- mal estimators of the EGOP can be expensive in practice. We show that a simple rough estima- tor, much cheaper in practice, suffices to obtain significant improvements on real-world nonpara- metric classification and regression tasks. Fur- thermore, we prove that, despite its simplicity, this rough estimator remains statistically consis- tent under mild conditions.},
+abstract = {In high-dimensional classification or regression problems, the expected gradient outerproduct (EGOP) of the unknown regression function f, namely EX ∇f(X) · ∇f(X)⊤ , is known to recover those directions v ∈Rd most relevant to predicting the output Y . However, just as in gradient estimation, opti- mal estimators of the EGOP can be expensive in practice. We show that a simple rough estima- tor, much cheaper in practice, suffices to obtain significant improvements on real-world nonpara- metric classification and regression tasks. Fur- thermore, we prove that, despite its simplicity, this rough estimator remains statistically consis- tent under mild conditions.},
 author = {Institute, Shubhendu Trivedi Toyota Technological and Wang, Jialei and TTI-Chicago, Samory Kpotufe and TT-Chicago, Gregory Shakhnarovich},
 pages = {872-881},
 title = {A Consistent Estimator of the Expected Gradient Outerproduct},
@@ -740,7 +741,7 @@ year = {2014}
 abstract = {Van Seijen and Sutton (2014) recently proposed a new version of the linear TD(λ) learning algo- rithm that is exactly equivalent to an online for- ward view and that empirically performed bet- ter than its classical counterpart in both predic- tion and control problems. However, their al- gorithm is restricted to on-policy learning. In the more general case of off-policy learning, in which the policy whose outcome is predicted and the policy used to generate data may be differ- ent, their algorithm cannot be applied. One rea- son for this is that the algorithm bootstraps and thus is subject to instability problems when func- tion approximation is used. A second reason true online TD(λ) cannot be used for off-policy learning is that the off-policy case requires so- phisticated importance sampling in its eligibility traces. To address these limitations, we gener- alize their equivalence result and use this gen- eralization to construct the first online algorithm to be exactly equivalent to an off-policy forward view. We show this algorithm, named true on- line GTD(λ), empirically outperforms GTD(λ) (Maei, 2011) which was derived from the same objective as our forward view but lacks the ex- act online equivalence. In the general theorem that allows us to derive this new algorithm, we encounter a new general eligibility-trace update.},
 author = {Van Hasselt, Hado and Mahmood, Rupam and Sutton, Rich},
 pages = {882-891},
-title = {Off-policy TD($\l$) with a true online equivalence},
+title = {Off-policy {TD}($\l$) with a true online equivalence},
 year = {2014}
 }
 
